@@ -6,7 +6,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-public class PersonDTO {
+public class    PersonDTO {
     // те поля которые нас интересуют при общении клиента с сервером
     @NotEmpty(message = "Name shouldn't be empty")
     @Size(min = 2, max = 30, message = "name could be only between 2 or 30 characters")
